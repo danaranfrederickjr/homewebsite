@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About FrederickSolutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #333333;
+        }
+        .text-primary-blue { color: #00A6FB; }
+        .text-secondary-blue { color: #0582CA; }
+        .text-dark-blue { color: #006494; }
+        .text-deep-navy { color: #003554; }
+        .bg-primary-blue { background-color: #00A6FB; }
+        .bg-secondary-blue { background-color: #0582CA; }
+        .bg-dark-blue { background-color: #006494; }
+        .bg-deep-navy { background-color: #003554; }
+        .bg-accent-yellow { background-color: #F9C80E; }
+        .btn-primary {
+            @apply px-8 py-3 rounded-full font-semibold text-white transition-all duration-300 ease-in-out;
+            background-color: #F9C80E;
+            border: 1px solid #F9C80E;
+        }
+        .btn-primary:hover {
+            background-color: #E6B80D;
+            border-color: #E6B80D;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-deep-navy text-white py-4 px-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-primary-blue">FrederickSolutions</a>
+            <nav>
+                <a href="index.html" class="text-white hover:underline mx-2">Home</a>
+                <a href="about.html" class="text-white hover:underline mx-2">About Us</a>
+                <a href="index.html#services" class="text-white hover:underline mx-2">Services</a>
+                <a href="index.html#contact" class="text-white hover:underline mx-2">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-16 md:py-20 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-3xl text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-dark-blue">About FrederickSolutions</h1>
+            <p class="text-lg mb-6 text-gray-700">
+                Welcome to FrederickSolutions! We are a dedicated team of technology consultants passionate about helping businesses thrive in the digital age. With a strong foundation in [mention key areas like cloud, cybersecurity, data], we bring years of experience and a client-first approach to every project.
+            </p>
+            <p class="text-lg mb-6 text-gray-700">
+                Our mission is to bridge the gap between complex technology and practical business solutions. We believe that technology should be an enabler, not a barrier. We work closely with our clients to understand their unique challenges and opportunities, crafting tailored strategies that deliver measurable results and sustainable growth.
+            </p>
+            <p class="text-lg text-gray-700">
+                Whether you're looking to optimize your cloud infrastructure, enhance your cybersecurity posture, leverage data for smarter decisions, or embark on a complete digital transformation, FrederickSolutions is your trusted partner every step of the way.
+            </p>
+            <a href="index.html#contact" class="btn-primary mt-10 inline-block bg-secondary-blue hover:bg-dark-blue">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer class="bg-deep-navy text-white py-8 text-center text-sm px-4">
+        <div class="container mx-auto">
+            <p>&copy; 2025 FrederickSolutions. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="about.html" class="hover:underline mx-2">About Us</a> |
+                <a href="#" class="hover:underline mx-2">Privacy Policy</a> |
+                <a href="#" class="hover:underline mx-2">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
